@@ -1,0 +1,21 @@
+<% include partial/header.ejs %>
+<main class="container">
+    <h1><%= title %></h1>
+    <form action="mail.php" method="post" enctype="text/plain">
+        Name:
+        <br>
+        <input type="text" name="name" value="name">
+        <br>
+        E-mail:
+        <br>
+        <input type="text" name="mail" value="mail">
+        <br>
+        Comment:
+        <br>
+        <input type="text" name="comment" value="commment" size="50">
+        <br>
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+    </form>
+</main>
+<% include partial/footer.ejs %>
