@@ -1,8 +1,12 @@
 body {
   padding: 50px;
+  background-image: url("/public/images/assasin.jpg");
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+font-face{
+  font-family: "Arial Black";
+}
 
-a {
-  color: #00B7FF;
+.content{
+  height: auto;
 }
