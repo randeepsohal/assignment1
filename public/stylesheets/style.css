@@ -10,3 +10,18 @@ font-face{
 .content{
   height: auto;
 }
+body{
+    background-image: url("../images/backgroungimg.jpg");
+    height: 100%;
+  margin: auto;
+}
+.wrapper {
+  min-height: 100%;
+}
+.wrapper:after {
+  content: '';
+  display: block;
+}
+.wrapper:after, footer {
+  height:60px;
+}
